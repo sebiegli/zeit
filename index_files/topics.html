@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- saved from url=(0180)file:///home/sebastian/Desktop/repos/zeit/Gewalt%20gegen%20Politiker_%20Gr%C3%BCnenpolitiker%20bedroht,%20Wirt%20sagt%20AfD-Veranstaltung%20ab%20_%20ZEIT%20ONLINE_files/topics.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Outbrain Topics Frame</title>
+    <script>
+      (async () => {
+        const { featurePolicy } = document;
+        if ('browsingTopics' in document && featurePolicy && featurePolicy['allowsFeature']('browsing-topics'))
+          try {
+            const params = new URLSearchParams(window.location.search);
+            const referrer = params.get('r');
+            const topics = await document.browsingTopics();
+            topics.length && parent.postMessage(topics, referrer);
+          } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div></div>
+  
+
+</body></html>
